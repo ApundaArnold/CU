@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:autoLink="web"
+            android:text="@string/nav_home"
+            android:linksClickable="true" />
+        <item
+            android:id="@+id/nav_min"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Ministries"
+            android:autoLink="web"
+            android:text="@string/nav_min"
+            android:linksClickable="true"/>
+        <item
+            android:id="@+id/nav_board"
+            android:icon="@drawable/ic_cast_connected"
+            android:title="Events"
+            android:autoLink="web"
+            android:text="@string/nav_board"
+            android:linksClickable="true"/>
+        <item
+            android:id="@+id/nav_evan"
+            android:icon="@drawable/ic_rss_feed_black_24dp"
+            android:title="Evangelism"
+            android:autoLink="web"
+            android:text="@string/nav_evan"
+            android:linksClickable="true"/>
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_attach_money"
+            android:title="Offerings"
+            android:autoLink="web"
+            android:text="@string/nav_evan"
+            android:linksClickable="true"/>
+
+
+    </group>
+
+    <item android:title="Gospel books">
+        <menu>
+            <item
+                android:id="@+id/nav_bible"
+                android:icon="@drawable/ic_book"
+                android:title="KJV Bible" />
+            <item
+                android:id="@+id/nav_hymn"
+                android:icon="@drawable/ic_pages"
+                android:title="Hymn book" />
+        </menu>
+    </item>
+
+</menu>

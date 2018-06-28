@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bk1"
+            android:title="Genesis"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk2"
+            android:title="Exodus"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk3"
+            android:title="Leviticus"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk4"
+            android:title="Numbers"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk5"
+            android:title="Deutronomy"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk6"
+            android:title="Joshua"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk7"
+            android:title="Judges"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk8"
+            android:title="Ruth"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk9"
+            android:title="1 Samuel"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk10"
+            android:title="2 Samuel"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk11"
+            android:title="1 Kings"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk12"
+            android:title="2 Kings"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk13"
+            android:title="1 Chronicles"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk14"
+            android:title="2 Chronicles"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk15"
+            android:title="Ezra"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+        <item
+            android:id="@+id/bk16"
+            android:title="Nehemiah"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=""/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

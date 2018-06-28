@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dove"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arnold.cuapp.evan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:padding="10sp"
+            android:text="Kisii University Christian Union has 5 evangelistic teams. These teams have been tasked with a duty of spreading the gospel to different parts of Kenya. These teams are not tribal based, but they only focus on sharing the gospel to the specified regions. Every member of the church is free to join one team s/he is interested to preach in."/>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:padding="10sp"
+            android:text="@string/Rehoboth"/>
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:padding="10sp"
+            android:text="@string/Uttermost"/>
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:padding="10sp"
+            android:text="@string/Nyanza"/>
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:padding="10sp"
+            android:text="@string/Western"/>
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:padding="10sp"
+            android:text="@string/Central"/>
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

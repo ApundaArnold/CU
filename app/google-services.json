@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "475975877499",
+    "firebase_url": "https://cuapp-d5fa6.firebaseio.com",
+    "project_id": "cuapp-d5fa6",
+    "storage_bucket": "cuapp-d5fa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475975877499:android:8f9fe01f7eed90f3",
+        "android_client_info": {
+          "package_name": "com.example.arnold.cuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475975877499-gaqol3utqviabm0210jc1na9vl5bnc3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arnold.cuapp",
+            "certificate_hash": "8a6e4a4b0563e3206352983f90e6312395f886ce"
+          }
+        },
+        {
+          "client_id": "475975877499-vh9cq2to4sr4ornue8d96i7loao8pdf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZyZfkrDUBfcKjhdlgcVs1WStcoHKSIgc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475975877499-vh9cq2to4sr4ornue8d96i7loao8pdf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

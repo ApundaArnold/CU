@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/S1"
+        android:title="High on the Mountain Top" />
+        <item
+            android:id="@+id/S2"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Come, O Thou King of Kings" />
+        <item
+            android:id="@+id/S3"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="The Spirit of God" />
+        <item
+            android:id="@+id/S4"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Now Let Us Rejoice" />
+        <item
+            android:id="@+id/S5"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Joseph Smith’s First Prayer" />
+        <item
+            android:id="@+id/S6"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="We Thank Thee, O God, for a Prophet" />
+        <item
+            android:id="@+id/S7"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Praise God, from Whom All Blessings Flow" />
+        <item
+            android:id="@+id/S8"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Come, Come, Ye Saints" />
+        <item
+            android:id="@+id/S9"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Come, Ye Children of the Lord" />
+        <item
+            android:id="@+id/S10"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="For the Beauty of the Earth" />
+        <item
+            android:id="@+id/S11"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Sweet Is the Work" />
+        <item
+            android:id="@+id/S12"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="There Is Sunshine in My Soul Today" />
+        <item
+            android:id="@+id/S13"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="How Great Thou Art" />
+        <item
+            android:id="@+id/S14"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="How Firm a Foundation" />
+        <item
+            android:id="@+id/S15"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:title="Redeemer of Israel" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

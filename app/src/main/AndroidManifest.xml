@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arnold.cuapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Kisii University Christian Union"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Kisii University Christian Union"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GreatViewActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Tips_1" />
+        <activity android:name=".Tips_2" />
+        <activity android:name=".Tips_3" />
+        <activity android:name=".Tips_4" />
+        <activity android:name=".Tips_5" />
+        <activity android:name=".New1" />
+        <activity android:name=".evan" />
+        <activity
+            android:name=".AuthActivity"
+            android:label="@string/title_activity_auth" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".HymnActivity"
+            android:label="@string/title_activity_hymn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Song1" />
+        <activity android:name=".Song2" />
+        <activity android:name=".Song3" />
+        <activity android:name=".Song4" />
+        <activity android:name=".Song5" />
+        <activity android:name=".Song6" />
+        <activity android:name=".Song7" />
+        <activity android:name=".Song8" />
+        <activity android:name=".Song9" />
+        <activity android:name=".Song10" />
+        <activity android:name=".Song11" />
+        <activity android:name=".Song12" />
+        <activity android:name=".Song13" />
+        <activity android:name=".Song14" />
+        <activity android:name=".Song15" />
+        <activity android:name=".EveActivity" />
+        <activity
+            android:name=".BibleActivity"
+            android:label="The Gospel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Book1" />
+        <activity android:name=".Book2" />
+        <activity android:name=".Book3" />
+        <activity android:name=".Book4" />
+        <activity android:name=".Book5"></activity>
+    </application>
+
+</manifest>
